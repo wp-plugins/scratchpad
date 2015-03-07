@@ -1,0 +1,23 @@
+.scratchpad, .focus-off #post-body .scratchpad {
+	opacity: 0;
+	height: 0;
+}
+
+.focus-on #post-body .scratchpad {
+	opacity: 1;
+	height: auto;
+	margin-left: -20px;
+	padding: 20px;
+	padding-right: 10px;
+	padding-left: 50px;
+	//transition-property: height;
+	background-image: url("assets/notepad.png");
+}
+
+.scratchpad-box {
+	resize: none;
+	background: none;
+	border: none;
+	box-shadow: none !important;
+
+}
